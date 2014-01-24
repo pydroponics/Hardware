@@ -1,0 +1,24 @@
+# Python Test Programs: Threading
+# Author: Stark Pister
+# 5/11/13
+
+import threading
+import time
+
+def printTime():
+    print time.strftime("%H:%M:%S", time.localtime())
+
+class sensorThread(threading.Thread):
+    def __init__(self,name=None,target=None,args=(),period = 60):
+        threading.Thread.__init__(self,name=name)
+        self.period = period
+        self.target = target
+        self.args = args
+    def run(self):
+        print self.name
+        self.target(self.args)
+        #next = threading.Timer(self.period,test.start)
+        #next.start()
+
+test = sensorThread(period = 4, name = 'Stark', target = printTime())
+test.start()

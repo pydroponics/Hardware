@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "UARTester", "UARTester\UARTester.cproj", "{B7F50B81-58C8-48DD-B90D-78896FA74230}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7F50B81-58C8-48DD-B90D-78896FA74230}.Debug|AVR.ActiveCfg = Debug|AVR
+		{B7F50B81-58C8-48DD-B90D-78896FA74230}.Debug|AVR.Build.0 = Debug|AVR
+		{B7F50B81-58C8-48DD-B90D-78896FA74230}.Release|AVR.ActiveCfg = Release|AVR
+		{B7F50B81-58C8-48DD-B90D-78896FA74230}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
